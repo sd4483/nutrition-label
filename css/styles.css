@@ -12,15 +12,15 @@ body {
 }
 
 main {
-    width: 350px;
+    width: 410px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 3px 8px 8px 8px;
     border: 3px solid black;
 }
 
 .main-heading {
     margin: 0px;
-    font-size: 46px;
+    font-size: 54px;
     font-weight: 900;
     text-align: center;
     border-bottom: 1px solid black;
@@ -61,10 +61,10 @@ main {
 }
 
 .nutrient-daily-value dt, .nutrient-daily-value dd {
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(155, 155, 155);
     display: flex;
     justify-content: space-between;
-    padding: 2px 0px;
+    padding: 3px 0px;
 }
 
 .nutrient-daily-value dd {
@@ -86,4 +86,35 @@ main {
 
 #indent-sugar {
     margin-left: 40px;
+}
+
+.other-nutrients {
+    font-size: 18px;
+    margin: 4px 0 8px 0;
+    border-bottom: 5px solid black;
+    padding-bottom: 2px;
+}
+.other-nutrients ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.other-nutrients li {
+    padding: 3px 0;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    display: flex;
+    justify-content: space-between;
+}
+
+#dont-need-border {
+    border-bottom: none;
+}
+
+.note ul {
+    font-size: 16px;
+    list-style: "* ";
+    padding-left: 10px;
+    margin: 0;
+    color: rgb(73, 73, 73);
 }
