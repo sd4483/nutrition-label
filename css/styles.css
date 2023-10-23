@@ -14,7 +14,7 @@ body {
 main {
     width: 410px;
     margin: 0 auto;
-    padding: 3px 8px 8px 8px;
+    padding: 8px;
     border: 3px solid black;
 }
 
@@ -64,7 +64,7 @@ main {
     border-top: 1px solid rgb(155, 155, 155);
     display: flex;
     justify-content: space-between;
-    padding: 3px 0px;
+    padding: 4px 0px;
 }
 
 .nutrient-daily-value dd {
@@ -78,6 +78,7 @@ main {
 .daily-value-column-name {
     text-align: right;
     font-weight: 800;
+    padding-top: 2px;
 }
 
 .percentage-value {
@@ -101,7 +102,7 @@ main {
 }
 
 .other-nutrients li {
-    padding: 3px 0;
+    padding: 4px 0;
     border-bottom: 1px solid rgb(155, 155, 155);
     display: flex;
     justify-content: space-between;
