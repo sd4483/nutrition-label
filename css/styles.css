@@ -43,7 +43,30 @@ main {
 .per-serving {
     font-size: 18px;
     font-weight: 800;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
+.calorie-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 5px solid black;
+}
 
+.nutrient-daily-value {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.nutrient-daily-value dt, .nutrient-daily-value dd {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+
+.daily-value-column-name {
+    text-align: right;
+    font-weight: 800;
+}
