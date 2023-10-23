@@ -57,6 +57,7 @@ main {
 .nutrient-daily-value {
     font-size: 18px;
     margin-top: 4px;
+    border-bottom: 10px solid black;
 }
 
 .nutrient-daily-value dt, .nutrient-daily-value dd {
@@ -66,7 +67,23 @@ main {
     padding: 2px 0px;
 }
 
+.nutrient-daily-value dd {
+    margin-left: 20px;
+}
+
+.nutrient-daily-value dl {
+    margin: 4px 0;
+}
+
 .daily-value-column-name {
     text-align: right;
     font-weight: 800;
+}
+
+.percentage-value {
+    font-weight: 800;
+}
+
+#indent-sugar {
+    margin-left: 40px;
 }
